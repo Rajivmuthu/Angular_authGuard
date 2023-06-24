@@ -1,1 +1,20 @@
-<p>table works!</p>
+<!-- <p>table works!</p> -->
+
+<div class="table content">
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let e of users">
+                <td>{{e.name}}</td>
+                <td>{{e.email}}</td>
+                <td>{{e.password}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

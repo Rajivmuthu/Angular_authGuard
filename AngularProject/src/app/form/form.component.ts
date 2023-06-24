@@ -13,8 +13,8 @@ export class FormComponent {
   email: string = '';
   password: any = '';
 
-  // form(){
-  //   this.router.navigate(['form']);
-  // }
+  form(){
+    this.router.navigate(['table']);
+  }
 
 }
