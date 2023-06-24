@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
 import { FormComponent } from './form/form.component';
 import { TableComponent } from './table/table.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
